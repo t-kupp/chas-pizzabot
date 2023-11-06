@@ -1,4 +1,4 @@
-# Sprint 2: Pizzabot
+# Pizzabot
 
 Today's assignment is to practices some parts of JavaScript you've learnt so far to create a little text-based bot which you can use to order pizza on your computer.
 
@@ -76,9 +76,29 @@ The functions should all reflect the tasks we've completed so far. So, the funct
 1. `totalCost()` which takes `orderQuantity` as an argument and returns the total cost for the order.
 1. `cookingTime()` which takes `orderQuantity` and returns the number of minutes it will take to finish the order.
 
-### 5. Hand in assignment
+### 5. HTML user interface
 
-As always, when you're done, submit a pull request on GitHub (from your repository into the technigo one) for review. [Read the guide on GitHub](https://guides.github.com/activities/forking/) for more info on how to do this.
+2. Instead of having your pizzabot live in the console make a form in HTML for the input from the user with: pizza type and number of pizzas. Then make your program print it's response in HTML instead.
+
+A combination of these two examples will help you on the way: [Forms submissions with JavaScript](https://www.w3schools.com/js/tryit.asp?filename=tryjs_form_submit) and [Get Element by ID](https://www.w3schools.com/js/exercise.asp?filename=exercise_arrays4).
+
+### 7. Setup repo in Github
+
+1. Create a Github repo.
+2. Upload your files to Github:
+
+```
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin <Address to your repo>
+git push -u origin main
+```
+
+### 8 Hand in the assignment
+
+Click the link in canvas and input the link to your repo repo.
 
 ### :books: Reading List
 
@@ -108,19 +128,4 @@ After completing this assignment your should:
 - Know some string methods to modify strings
 - Understand control flow and the use of conditionals statements
 - Be able to write basic functions which take arguments and return values
-
----
-
-### :runner: Stretch Goals
-
-Done with the main task? Here's some ideas for things to continue with:
-
-1. Go to the Wikipedia Article about [Hawaiian Pizza](https://en.wikipedia.org/wiki/Hawaiian_pizza) and:
-
-- Copy the first three paragraphs. Store the text in a String
-- Make your program count the number of words in the string
-- Make your program count the number of times the word pineapple appears.
-
-2. Instead of having your pizzabot live in the console make a form in HTML for the input from the user, pizza type and number of pizzas. Then make your program print it's response in HTML instead.
-
-A combination of these two examples will help you on the way: [Forms submissions with JavaScript](https://www.w3schools.com/js/tryit.asp?filename=tryjs_form_submit) and [Get Element by ID](https://www.w3schools.com/js/exercise.asp?filename=exercise_arrays4).
+- Create a simple HTML ui
