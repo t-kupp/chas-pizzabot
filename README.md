@@ -82,7 +82,7 @@ The functions should all reflect the tasks we've completed so far. So, the funct
 
 A combination of these two examples will help you on the way: [Forms submissions with JavaScript](https://www.w3schools.com/js/tryit.asp?filename=tryjs_form_submit) and [Get Element by ID](https://www.w3schools.com/js/exercise.asp?filename=exercise_arrays4).
 
-### 7. Setup repo in Github
+### 6. Setup repo in Github
 
 1. Create a Github repo.
 2. Upload your files to Github:
@@ -96,7 +96,7 @@ git remote add origin <Address to your repo>
 git push -u origin main
 ```
 
-### 8 Hand in the assignment
+### 7 Hand in the assignment
 
 Click the link in canvas and input the link to your repo repo.
 
