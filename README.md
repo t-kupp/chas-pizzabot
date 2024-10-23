@@ -76,7 +76,7 @@ The functions should all reflect the tasks we've completed so far. So, the funct
 1. `totalCost()` which takes `orderQuantity` as an argument and returns the total cost for the order.
 1. `cookingTime()` which takes `orderQuantity` and returns the number of minutes it will take to finish the order.
 
-### 5. :runner: Stretch Goals - HTML user interface
+### :runner: Stretch Goals - HTML user interface
 
 1. Instead of having your pizzabot live in the console make a form in HTML for the input from the user with: pizza type and number of pizzas. Then make your program print it's response in HTML instead.
 
