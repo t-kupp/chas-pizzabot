@@ -76,9 +76,9 @@ The functions should all reflect the tasks we've completed so far. So, the funct
 1. `totalCost()` which takes `orderQuantity` as an argument and returns the total cost for the order.
 1. `cookingTime()` which takes `orderQuantity` and returns the number of minutes it will take to finish the order.
 
-### 5. HTML user interface
+### 5. :runner: Stretch Goals - HTML user interface
 
-2. Instead of having your pizzabot live in the console make a form in HTML for the input from the user with: pizza type and number of pizzas. Then make your program print it's response in HTML instead.
+1. Instead of having your pizzabot live in the console make a form in HTML for the input from the user with: pizza type and number of pizzas. Then make your program print it's response in HTML instead.
 
 A combination of these two examples will help you on the way: [Forms submissions with JavaScript](https://www.w3schools.com/js/tryit.asp?filename=tryjs_form_submit) and [Get Element by ID](https://www.w3schools.com/js/exercise.asp?filename=exercise_arrays4).
 
@@ -122,7 +122,7 @@ Learning how to think as a web developer is learning how to be an expert in prob
 
 ### :boom: Success!
 
-After completing this assignment your should:
+After completing this assignment you should be able to create a javascript program consisting of many functions and variables.
 
 - Be comfortable using variables
 - Know some string methods to modify strings
