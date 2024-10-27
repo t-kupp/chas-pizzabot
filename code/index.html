@@ -2,10 +2,29 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pizzabot</title>
+    <script src="./pizzabot.js" defer charset="utf-8"></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <script src="./pizzabot.js" charset="utf-8"></script>
-    Edit pizzabot.js to complete this assignment.
+    <div class="content">
+      <p class="greeting" id="greeting"></p>
+      <div class="radio-wrapper">
+        <p>Choose the pizza you want to order today:</p>
+        <input type="radio" name="pizza" id="vegetarian" value="Vegetarian Pizza" checked />
+        <label for="vegetarian">Vegetarian Pizza</label>
+        <input type="radio" name="pizza" id="hawaiian" value="Hawaiian Pizza" />
+        <label for="hawaiian">Hawaiian Pizza</label>
+        <input type="radio" name="pizza" id="pepperoni" value="Pepperoni Pizza" />
+        <label for="pepperoni">Pepperoni Pizza</label>
+      </div>
+      <div class="quantity-wrapper">
+        <label for="quantity">How many pizzas do you want?</label>
+        <input type="number" name="quantity" id="quantity" min="1" max="10" value="1" />
+      </div>
+      <button id="orderBtn">Order!</button>
+      <p id="confirm"></p>
+    </div>
   </body>
 </html>
