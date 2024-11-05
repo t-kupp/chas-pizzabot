@@ -3,9 +3,44 @@
   <head>
     <meta charset="utf-8" />
     <title>Pizzabot</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./pizzabot.js" defer charset="utf-8"></script>
   </head>
   <body>
-    <script src="./pizzabot.js" charset="utf-8"></script>
-    Edit pizzabot.js to complete this assignment.
+    <div class="main">
+      <p id="welcome"></p>
+      <div class="middle-wrapper">
+        <div class="radio-wrapper">
+          <div>
+            <input type="radio" name="pizza" id="vegetarian" value="Vegetarian Pizza" checked />
+            <label for="vegetarian">Vegetarian Pizza</label>
+          </div>
+          <div>
+            <input type="radio" name="pizza" id="hawaiian" value="Hawaiian Pizza" />
+            <label for="hawaiian">Hawaiian Pizza</label>
+          </div>
+          <div>
+            <input type="radio" name="pizza" id="pepperoni" value="Pepperoni Pizza" />
+            <label for="pepperoni">Pepperoni Pizza</label>
+          </div>
+        </div>
+        <div class="order-wrapper">
+          <p>How many do you want to order?</p>
+          <select name="quantity" id="quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+        </div>
+      </div>
+      <button id="orderBtn">Order</button>
+      <p id="confirm"></p>
+    </div>
   </body>
 </html>
